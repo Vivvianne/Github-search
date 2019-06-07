@@ -21,10 +21,10 @@ export class RepositoryComponent implements OnInit {
       this.reponame = params.get('name');
       console.log(this.reponame)
     })
-    this.mainservice.getRepo(this.reponame).subscribe(res =>{
-      this.repoDetails = res;
-      console.log(res)
-    })
+    // this.mainservice.getRepo(this.reponame).subscribe(res =>{
+    //   this.repoDetails = res;
+    //   console.log(res)
+    // })
   }
 
 }
